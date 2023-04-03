@@ -1,0 +1,141 @@
+nav {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: black;
+	border: solid;
+	border-width: 2px;
+	border-color: red;
+	padding: 5px;
+}
+nav a {
+	text-decoration: none;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+nav a:link{color: #ED7376;}
+nav a:visited {color: #820D16;}
+nav a:hover {color: #FF1200; background-color: white;}
+
+a {
+	text-decoration: none;
+	color: orange;
+}
+
+ul {
+	text-align: left;
+}
+
+body {
+	background-image: url("Squat+Bench2.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;;
+	background-color: black ;
+	text-decoration-color: #221811;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+
+header {
+	text-align: center;
+	color: red;
+	font-size: 40px;
+	font-family: Bodoni MT Black, Arial Black, sans-serif;
+}
+footer {
+	background-color: black;
+	color: white;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+	padding: 1em;
+	border: solid;
+	border-width: 2px;
+	border-color: red;
+}
+
+table {
+	margin: auto;
+	border-spacing: 0px;
+	width: 90%;
+	border: solid;
+}
+td, th {
+	padding: 10px;
+	text-align: left;
+	border: solid;
+	border-width: 1px;
+}
+tr:nth-of-type(odd) {
+	background-color: #ff988b;
+}
+
+form {
+	padding-left: 1em; 
+	width: 80%; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px; margin-bottom: 10px;
+	background-color: #ff988b;
+	padding-top: 10px;
+	border: solid;
+} 
+
+input, textarea { margin-bottom: .5em; }
+
+section {
+	background-color: #ff988b;
+	border: solid;
+	border-color: black;
+	text-align: center;
+}
+img {
+	border: solid;
+	border-width: 3px;
+	border-color: black;
+}
+input {
+	
+}
+
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	width: 80%;
+	min-width: 900px;
+	max-width: 1280px;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+	box-shadow: 3px 3px 3px #666666;
+}
+#RightAlign {
+	text-align: right;
+	padding-right: 10px;
+}
+#Border {
+	background-color: #ff988b;
+	border: solid;
+	border-color: black;
+}
+
+
+.column {
+  float: left;
+  width: 30%;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column2 {
+  float: left;
+  width: 49%;
+  margin-left: 5px;
+}

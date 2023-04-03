@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<link href = "Weights.css" rel = "stylesheet">
+	<title>Thomson's Weight Training:: Join</title>
+	<meta charset="utf-8">
+</head>
+
+
+<body>
+	<div id = "wrapper">
+		<header>Thomson's Weight Training</header>
+		<nav>
+			<a href = "Home.html"> Home </a>
+			<a href = "Training.html"> Training </a>
+			<a href = "Coaches.html"> Coaches </a>
+			<a href = "Join.html"> Join </a>
+		</nav>
+		<main>
+
+			<h2 style = "text-align: center;">Thomson's Weight Training Fee's are posted below</h2>
+			<table>
+			<tr>
+				<th>Gym Membership</th>
+				<td>Includes access to the gym for one person and one guest.
+					<br>$15.00 per month</td>
+			</tr>
+
+			<tr>
+				<th>Premium Membership</th>
+				<td>Includes both a gym membership and a class pass.
+				<br>$25.00 per month</td>
+			</tr>
+
+			<tr>
+				<th>Private Training Session</th>
+				<td>A private scheduled training session. Can bring a maximum number of 10 people.
+				<br>$20.00/hr</td>
+			</tr>
+			<tr>
+				<th>Coaching</th>
+				<td>A one on one session with an experienced lifter. Useful for beginners.
+				<br>$10.00/hr</td>
+			</tr>
+			<tr>
+				<th>Class Pass</th>
+				<td>Allows access to all classes offered at Thomson's Gym
+				<br>$15.00 per month</td>
+			</tr>
+
+			</table>
+					<h2 style = "text-align: center;">Online Registration</h2>
+					<form>
+						<label for = "myName">Name: <input type = "text" name = "myName" id = "myName" required = "Required"></label><br>
+						<label for = "myEmail">Email: <input type = "text" name = "myEmail" id = "myEmail" required = "Required"></label><br>
+						<label for = "startDate">Date of Birth: <input type = "date" name = "startDate" id = "startDate" required = "Required"></label><br>
+						<h2>Membership Type</h2>
+						<input type="checkbox" id="Membership" name="Membership" value="Gym Membership"><label for="Membership">Gym Membership</label><br>
+						<input type="checkbox" id="Premium" name="Premium" value="Premium Membership"><label for="Premium">Premium Membership</label><br>
+						<input type="checkbox" id="Class" name="Class" value="Class"><label for="Class">Class Pass</label><br>
+						<h2>Select the options that may interest you</h2>
+						<input type="checkbox" id="Private" name="Private" value="Private Session"><label for="Private">Private Session</label><br>
+						<input type="checkbox" id="Coaching" name="Coaching" value="Coaching"><label for="Coaching">Coaching</label><br>
+						<h2>Classes</h2>
+						<input type = "checkbox" id = "Weightlifting" name = "Weightlifting" value = "Weightlifting"><label for = "Weightlifting">Weightlifting</label><br>
+						<input type = "checkbox" id = "Calisthenics" name = "Calisthenics" value = "Calisthenics"><label for = "Calisthenics">Calisthenics</label><br>
+						<input type = "checkbox" id = "Yoga" name = "Yoga" value = "Yoga"><label for = "Yoga">Yoga</label><br>
+
+						<br>
+						<label for = "myExperience">Additional Information:</label> <br> <textarea name = "myExperience" id = "myExperience" rows = "2" cols = "20" required = "Required"></textarea>
+						<br>
+						<input type = "reset" id = "reset" value = "Reset" name = "reset">
+						<input type = "submit" id = "mySubmit" value = "Apply Now" name = "mySubmit">
+
+					</form>
+				
+
+		</main>
+
+
+		<footer>
+			Copyright &copy; 2021 Thomson's Gym<br>
+			<a href = "mailto:nrthomso@iu.edu">nrthomso@iu.edu</a>
+		</footer>
+	</div>
+</body>
+
+</html>
